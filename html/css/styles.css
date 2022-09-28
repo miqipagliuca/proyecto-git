@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+h1{
+    color:black
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+
+
+
+
+header nav{
+    width: 30%;
+}
+
+section {
+    background-color: #FCC0D9;
+}
+
+.portada {
+    height: 30vh;
+    background-color: blue;
+    background-image: url(../img/portada.png);
+    background-repeat: no-repeat, round;
+    background-position: 50%;
+    background-size: cover;   
+}
+
+.productos__title {
+    background-color: #FCC0D9;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.tarjeta {
+    border: 1px solid white;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.btn{
+    border: 2px solid crimson;
+    padding: 10px 15px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+}
+
+.btn:hover{
+    border: 2px solid crimson;
+    background-color: wheat;
+    color: crimson;
+}
+
+
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    color: #FCC0D9 ;
+    background-color: #90EBB4;
+    text-align: center;
+    padding: 15px;
+}
+
+header{
+background-color: rgba(220, 20, 60, 0.459);
+color: #FCC0D9;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+nav {
+    grid-area: nav;
+}
+
+
+
+#fondoclaro{background-color: #FCC0D9;}
+
+
+
+
+
+/* Tipos d fuentes 
+p {
+    font-style: oblique;
+    font-size: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: green;
+}
+*/
+/* hacia donde va el texto - deco de texto 
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+*/
+/* Para sacarle el subrayado a enlaces 
+a {
+    text-decoration: none;
+}
+*/
+
+
+
+
+
+   
+
+    
+   
+
+    
+  
+    
+    
